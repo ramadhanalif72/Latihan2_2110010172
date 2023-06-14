@@ -10,8 +10,32 @@ public class Mahasiswa {
         this.nama = nama;
         this.prodi = prodi;
     }
-    public static void main(String[] args) {
-        Mahasiswa M = new Mahasiswa("21100010172", "Mochmmad Alif Ramadhan", "Teknik Informastika");
+
+    Mahasiswa() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-             
+    
+    public String getNpm() {
+        return npm;
+    }
+
+    public void setNpm(String npm) {
+        this.npm = npm;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getProdi() {
+        return prodi;
+    }
+
+    public void setProdi(String prodi) {
+        this.prodi = prodi;
+    }       
 }
